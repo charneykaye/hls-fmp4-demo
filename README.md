@@ -1,3 +1,3 @@
 # hls-fmp4-demo
 
-Try playing [this link](chunky.m3u8) in a capable application, such as [VLC](https://www.videolan.org/).
+Try playing [this link](https://charneykaye.github.io/hls-fmp4-demo/chunky.m3u8) in a capable application, such as [VLC](https://www.videolan.org/).
