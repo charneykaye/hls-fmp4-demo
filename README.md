@@ -41,3 +41,6 @@ Input #0, hls, from 'chunky.m3u8':
       creation_time   : 2021-12-02T00:21:18.000000Z
 ```
 
+## Paradox?
+
+I'm reading https://video.stackexchange.com/questions/34627/audio-discontinuities-when-generating-hls-segments-in-different-processes "MDCT-based codecs like AAC or MP3 carry out their transforms over multiple adjoining frames" and wonder if maybe the answer is, this is impossible with AAC or MP3 audio, and in fact, because individually generating the media segments ***is*** a constraint, I would need to generate MPEG-2 TS fragments?
